@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Interactiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>!Bienvenidos¡</h1>
+    <p>Esta es una página de ejemplo con HTML, CSS y JavaScript.</p>
+    <button onclick="mostrarBienvenida()">Mostrar Bienvenida</button>
+    <button onclick="alternarTema()">Cambiar Tema</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Acerca de mí</h2>
+      <p>Soy estudiante de análisis y desarrollo de software en el SENA, apasionada por la tecnología y el desarrollo web.</p>
+    </section>
+
+    <section>
+      <h2>Formulario de Contacto</h2>
+      <form onsubmit="enviarFormulario(event)">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensajeEnviado" style="display: none; color: rgb(2, 20, 2);">¡Gracias por tu mensaje!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

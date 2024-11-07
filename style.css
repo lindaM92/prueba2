@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6bcd9;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background-color: #f036be;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input, form textarea, form button {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  body.mode {
+    background-color: #3ac1d3;
+    color: #f0f0f0;
+  }
+  
+  header.dark-mode, footer.dark-mode {
+    background-color: #3ac1d3;
+  }
+  
+
+    button {
+    background-color: #c0058e; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quita el borde */
+    padding: 10px 20px; /* Tamaño del botón */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a mano */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones para suavizar los cambios */
+  }
